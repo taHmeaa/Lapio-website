@@ -1,6 +1,36 @@
-li   { color: violet; }
-h1  { color: blue;}
-h2, h3 {color: brown;}
+li   { 
+    color: violet; }
+h1  { 
+    color: blue;
+    margin-top: 1em;
+    padding-top: 1em;
+    }
 
-.teksti {color: brown;}
-.jatkuu {color: red;}
+h2, h3 {
+    color: brown;
+    margin-top: 1em;
+    padding-top: 1em;
+    }
+h4 {
+    color: #333333;
+    }
+.teksti {
+    color: brown;
+    }
+.jatkuu {
+    color: red;
+    }
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    }
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: #eee;
+    }
